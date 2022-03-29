@@ -6,6 +6,8 @@ print(menssage)
 themeInput = readLine()!
 // var page = readLine()
 print(menssage2)
+
+//Deixa o programa inteiro em um loop com uma condicional de saída
 while true {
     if let themeType = Int(themeInput) {
         print("\n Por favor, digite um tema")

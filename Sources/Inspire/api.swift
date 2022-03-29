@@ -17,7 +17,7 @@ struct SRC: Decodable {
 }
 
 
-
+//Função que vai consumir a API e retornar (caso não nulo)
 func api (theme: String) {
     
     let page = 1
@@ -34,6 +34,7 @@ func api (theme: String) {
         do {
             let response = try decoder.decode(Response.self, from: data!)
             
+            //Validando JSON obtido
             guard let selectedPhoto = response.photos.randomElement() else {
                 print(response)
                 exit(1)
@@ -63,6 +64,7 @@ func api (theme: String) {
     RunLoop.main.run()
 }
 
+//Função que abre a imagem no navegador 
 @available(macOS 10.13, *)
 func openG(url : String) {
     let ls = Process()

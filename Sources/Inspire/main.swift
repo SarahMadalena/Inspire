@@ -1,5 +1,5 @@
 import Foundation
-
+// Declaro o valor da variável String para ela não inicializar vazia
 var themeInput = "default"
 
 print(menssage)

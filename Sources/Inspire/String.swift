@@ -1,4 +1,4 @@
-//Daily: uma imagem diária. Receber e utilizar apenas a imagem aleatória recebida por dia
+//Daily: uma imagem diária. Receber e utilizar apenas a imagem aleatória recebida por dia. A pessoa deve digitar apenas uma palavra, específica ou geral(ex:lion or animal).
 //  File.swift
 //  
 //
@@ -12,7 +12,7 @@ let menssage = """
         |    A Random Photos Generator     |
         |         Daily Challenge          |
         ====================================
-        🎨 Escreva o tema em Inglês para melhores resultados!
+        🎨 Escreva um tema com apenas uma palavra e em Inglês para melhores resultados!
         
         ⌨️ Digite o tema que você quer:
         """
